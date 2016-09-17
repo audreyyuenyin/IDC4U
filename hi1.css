@@ -1,0 +1,29 @@
+html {
+	background-color: #E0FFFF;
+}
+
+ul#list-nav {
+	padding: 0;
+	width:600px;
+}
+
+ul#list-nav li {
+	display:inline-block;
+}
+
+ul#list-nav li a {
+	text-decoration: none; 
+	font-size: 28px;
+	padding:10px 0;
+	width: 180px;
+	background:#6495ED;
+	color:#eee;
+	float:left; 
+	text-align: center;
+	border-left:1px solid #fff;
+}
+
+ul#list-nav li a:hover {
+	background:#1E90FF;
+	color:#000;
+}
